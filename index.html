@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Моя страница</title>
+</head>
+<body>
+	<header>
+		<h1>Добро пожаловать на мою страницу!</h1>
+		<nav>
+			<ul>
+				<li><a href="#about-me">Обо мне</a></li>
+				<li><a href="#my-projects">Мои проекты</a></li>
+				<li><a href="#contact-me">Свяжитесь со мной</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="about-me">
+			<h2>Обо мне</h2>
+			<p>Здесь можно написать краткую информацию о себе.</p>
+		</section>
+
+		<section id="my-projects">
+			<h2>Мои проекты</h2>
+			<ul>
+				<li><a href="#">Проект 1</a></li>
+				<li><a href="#">Проект 2</a></li>
+				<li><a href="#">Проект 3</a></li>
+			</ul>
+		</section>
+
+		<section id="contact-me">
+			<h2>Свяжитесь со мной</h2>
+			<form action="#" method="POST">
+				<label for="name">Ваше имя:</label>
+				<input type="text" name="name" id="name" required>
+				<br>
+				<label for="email">Ваш email:</label>
+				<input type="email" name="email" id="email" required>
+				<br>
+				<label for="message">Сообщение:</label>
+				<textarea name="message" id="message" cols="30" rows="10" required></textarea>
+				<br>
+				<input type="submit" value="Отправить">
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>Моя футерная информация</p>
+	</footer>
+</body>
+</html>
